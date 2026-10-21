@@ -1,4 +1,4 @@
-<img src="dark_mode.svg" width="100%" />
+<img src="pushkkal_ascii_portrait_card.svg" alt="ASCII art portrait of Pushkkal Gupta" width="100%" />
 
 <!--
 ╔══════════════════════════════════════════════════════════╗
