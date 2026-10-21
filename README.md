@@ -1,3 +1,5 @@
+<img src="dark_mode.svg" width="100%" />
+
 <!--
 ╔══════════════════════════════════════════════════════════╗
   PUSHKKAL GUPTA / NEURAL TERMINAL
