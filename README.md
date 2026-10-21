@@ -1,19 +1,21 @@
-<img src="pushkkal_ascii_portrait_card.svg" alt="ASCII art portrait of Pushkkal Gupta" width="100%" />
+﻿<!-- START: CHATGPT ASCII CARD -->
+<img src="pushkkal_green_matrix_ascii_animated.svg" width="100%" alt="Animated green ASCII portrait of Pushkkal Gupta" />
 
+<!-- END: CHATGPT ASCII CARD -->
 <!--
-╔══════════════════════════════════════════════════════════╗
+â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•—
   PUSHKKAL GUPTA / NEURAL TERMINAL
   Theme: Neo Noir
   Background: 070B14
   Primary: 00E5FF
   Secondary: FF2BD6
   Accent: A78BFA
-╚══════════════════════════════════════════════════════════╝
+â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 -->
 
 <div align="center">
 
-<img width="100%" src="./assets/neural-banner.svg" alt="Pushkkal Gupta — animated cyberpunk neural terminal" />
+<img width="100%" src="./assets/neural-banner.svg" alt="Pushkkal Gupta â€” animated cyberpunk neural terminal" />
 
 <br/>
 
@@ -43,29 +45,29 @@
 
 <br/><br/>
 
-**`CURIOSITY → EXPERIMENTATION → UNDERSTANDING → CREATION`**
+**`CURIOSITY â†’ EXPERIMENTATION â†’ UNDERSTANDING â†’ CREATION`**
 
 </div>
 
 ---
 
-## ◈ Identity
+## â—ˆ Identity
 
 <table>
 <tr>
 <td width="60%" valign="top">
 
 ### Pushkkal Gupta
-**Technology enthusiast · Curious builder · Future focused**
+**Technology enthusiast Â· Curious builder Â· Future focused**
 
-I’m interested in the space where software, intelligent systems, and thoughtful design meet.
+Iâ€™m interested in the space where software, intelligent systems, and thoughtful design meet.
 
 My approach is to explore ideas, understand the systems behind them, and turn what I learn into something useful.
 
-- 🧠 **Explore:** AI, machine learning, and data.
-- ⚙️ **Build:** Software and connected experiences.
-- 🎨 **Design:** Interfaces with clarity and character.
-- 🔁 **Improve:** Through practice and iteration.
+- ðŸ§  **Explore:** AI, machine learning, and data.
+- âš™ï¸ **Build:** Software and connected experiences.
+- ðŸŽ¨ **Design:** Interfaces with clarity and character.
+- ðŸ” **Improve:** Through practice and iteration.
 
 </td>
 <td width="40%" valign="top">
@@ -99,7 +101,7 @@ My approach is to explore ideas, understand the systems behind them, and turn wh
 
 ---
 
-## ◈ Technology Matrix
+## â—ˆ Technology Matrix
 
 > Languages, frameworks, platforms, and creative tools in my technology toolkit.
 
@@ -175,7 +177,7 @@ My approach is to explore ideas, understand the systems behind them, and turn wh
 
 ---
 
-## ◈ Development Telemetry
+## â—ˆ Development Telemetry
 
 <div align="center">
 
@@ -194,7 +196,7 @@ My approach is to explore ideas, understand the systems behind them, and turn wh
 
 ---
 
-## ◈ Contribution Circuit
+## â—ˆ Contribution Circuit
 
 <div align="center">
 
@@ -211,7 +213,7 @@ My approach is to explore ideas, understand the systems behind them, and turn wh
 
 ---
 
-## ◈ Repository Explorer
+## â—ˆ Repository Explorer
 
 <div align="center">
 
@@ -224,13 +226,13 @@ My approach is to explore ideas, understand the systems behind them, and turn wh
 
 <br/><br/>
 
-Ideas, experiments, and progress—follow the work as it evolves.
+Ideas, experiments, and progressâ€”follow the work as it evolves.
 
 </div>
 
 ---
 
-## ◈ Communication Channels
+## â—ˆ Communication Channels
 
 <div align="center">
 
@@ -261,7 +263,7 @@ then remove the surrounding comment.
 
 ---
 
-## ◈ Signal of the Day
+## â—ˆ Signal of the Day
 
 <div align="center">
 
@@ -276,3 +278,4 @@ then remove the surrounding comment.
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:070B14,45:251044,75:702080,100:00E5FF&height=130&section=footer" alt="Neon gradient footer" />
 
 </div>
+

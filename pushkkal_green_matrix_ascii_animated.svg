@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="760" viewBox="0 0 1320 760" role="img" aria-labelledby="title desc">
+<title id="title">Animated green ASCII portrait card for Pushkkal Gupta</title>
+<desc id="desc">Matrix-style GitHub profile card with a portrait of Pushkkal Gupta assembled from animated falling green characters.</desc>
+<defs>
+  <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#010301"/>
+    <stop offset="1" stop-color="#06110a"/>
+  </linearGradient>
+  <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur stdDeviation="2.4" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+  <clipPath id="portraitClip"><rect x="34" y="116" width="492" height="576" rx="20"/></clipPath>
+  <clipPath id="cardClip"><rect x="0" y="0" width="1320" height="760" rx="26"/></clipPath>
+  <style>
+    .mono { font-family: Consolas, Menlo, 'Liberation Mono', monospace; }
+    .sans { font-family: Inter, Segoe UI, Arial, sans-serif; }
+    .portraitRow { fill: #b6ffbe; font-size: 10.6px; letter-spacing: 0.2px; opacity: 0; animation: rowDrop 820ms cubic-bezier(.17,.84,.44,1) forwards; }
+    .portraitRow.dim { fill: #7efb93; }
+    .rain { fill: #63ff75; opacity: .28; font-size: 14px; animation: rain linear infinite; }
+    .scan { animation: scan 4s linear infinite; }
+    .flicker { animation: flicker 4s steps(1) infinite; }
+    .cursor { animation: blink 1s step-end infinite; }
+    @keyframes rowDrop {
+      0% { opacity: 0; transform: translateY(-42px); }
+      35% { opacity: 0.25; }
+      100% { opacity: 1; transform: translateY(0px); }
+    }
+    @keyframes rain {
+      0% { transform: translateY(-240px); }
+      100% { transform: translateY(900px); }
+    }
+    @keyframes scan {
+      0%,100% { transform: translateY(0px); opacity: 0; }
+      10% { opacity: .0; }
+      20% { opacity: .85; }
+      60% { opacity: .25; }
+      100% { transform: translateY(540px); opacity: 0; }
+    }
+    @keyframes blink { 50% { opacity: 0; } }
+    @keyframes flicker {
+      0%, 92%, 100% { opacity: 1; }
+      93% { opacity: .8; }
+      94% { opacity: 1; }
+      95% { opacity: .72; }
+      96% { opacity: 1; }
+    }
+  </style>
+
+  <linearGradient id="scanG" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b6ffbe" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#b6ffbe" stop-opacity="1"/>
+    <stop offset="1" stop-color="#b6ffbe" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<rect width="1320" height="760" rx="26" fill="url(#bgGrad)"/>
+<rect x="1" y="1" width="1318" height="758" rx="25" fill="none" stroke="#17321c" stroke-width="2"/>
+<circle cx="38" cy="36" r="8" fill="#ff5f56"/>
+<circle cx="62" cy="36" r="8" fill="#ffbd2e"/>
+<circle cx="86" cy="36" r="8" fill="#27c93f"/>
+<text x="118" y="43" class="mono" fill="#85a58d" font-size="20">pushkkal0201-bit / README.md</text>
+<text x="1264" y="43" text-anchor="end" class="mono" fill="#55735b" font-size="18">green_ascii_profile.svg</text>
+<path d="M0 70 H1320" stroke="#17321c" stroke-width="2"/>
+<path d="M560 70 V760" stroke="#17321c" stroke-width="2"/>
+<rect x="24" y="92" width="512" height="628" rx="22" fill="#040a06" stroke="#17321c"/>
+<text x="42" y="111" class="mono" font-size="16" fill="#63ff75">$ init --mode matrix-portrait</text>
+<g clip-path="url(#portraitClip)" filter="url(#glow)">
+<text x="42.4" y="-120" class="mono rain" style="animation-duration:5.00s; animation-delay:-0.00s">+=@0{-=(%]1*=/&lt;}:\1+[$\|+)&amp;(-]&amp;)&amp;\[-.}-$|1@0}</text>
+<text x="56.3" y="-120" class="mono rain" style="animation-duration:5.55s; animation-delay:-0.37s">)#\.}/&amp;#-+=&lt;%@/*]}+}11=)$&amp;&lt;#&lt;[|@\$[&gt;..&gt;-]{\++</text>
+<text x="74.7" y="-120" class="mono rain" style="animation-duration:6.10s; animation-delay:-0.74s">&amp;([$*]&gt;(-)]&amp;%].]=.\/+}0#;1//}&lt;(-|@]|=&amp;}:*(*=$</text>
+<text x="91.5" y="-120" class="mono rain" style="animation-duration:6.65s; animation-delay:-1.11s">]=&amp;-|[+#@\#|=;]#-&gt;+10-#&lt;1\&lt;[&gt;$-=[-+.*-/:(;-+/</text>
+<text x="108.9" y="-120" class="mono rain" style="animation-duration:7.20s; animation-delay:-1.48s">*[:}/$1&amp;{%@@%=0&gt;)+};)&lt;1$#.&gt;)]&amp;=[\$|{\]&lt;@{+{&gt;&amp;</text>
+<text x="127.5" y="-120" class="mono rain" style="animation-duration:7.75s; animation-delay:-1.85s">-:.;*:+-&amp;:#{($\&gt;%%0{+$+|%{&lt;.+&lt;1\(\-+.{%:)-;)*</text>
+<text x="141.0" y="-120" class="mono rain" style="animation-duration:8.30s; animation-delay:-2.22s">(|-%/\:(=-=@=&lt;;#:\:|]$+:@&lt;$:)0@/%/&lt;:|$\)$]}])</text>
+<text x="155.1" y="-120" class="mono rain" style="animation-duration:5.00s; animation-delay:-2.59s">1}@:&lt;+{@@-@0|{/@{*@../1&amp;;@11@\|/$%].]&gt;$\]0:#*</text>
+<text x="175.8" y="-120" class="mono rain" style="animation-duration:5.55s; animation-delay:-2.96s">&lt;|-@\1[-;=$-:-$]\+/#*-|{&gt;+%[1]%%{@+\#|1$1])}1</text>
+<text x="191.0" y="-120" class="mono rain" style="animation-duration:6.10s; animation-delay:-3.33s">&gt;%@\])1|$.+&lt;\.{=]]|.-./1]]@;+[*%;|&gt;|&gt;}&gt;+:%):)</text>
+<text x="207.2" y="-120" class="mono rain" style="animation-duration:6.65s; animation-delay:-3.70s">&gt;\*$=$}#)0&amp;]&amp;|;}&gt;*%.=&gt;@|@{)\&lt;{$#*0&lt;|10%+/]:1\</text>
+<text x="222.4" y="-120" class="mono rain" style="animation-duration:7.20s; animation-delay:-4.07s">=]0{[){}}|$#@$+#.0[0&gt;01&amp;..]&gt;;|&lt;0&amp;+:&amp;]$+1#]1;|</text>
+<text x="240.5" y="-120" class="mono rain" style="animation-duration:7.75s; animation-delay:-4.44s">-/]1|%-=;;\&amp;&lt;[((]&lt;-0[(&lt;*)[.&gt;#&gt;);$/0@(%.*+*[;1</text>
+<text x="257.3" y="-120" class="mono rain" style="animation-duration:8.30s; animation-delay:-4.81s">$1%{#0{[);+[0\*&amp;;&gt;=)--]%[0|$[-&amp;;.]/*&amp;=[1=@|]=</text>
+<text x="274.2" y="-120" class="mono rain" style="animation-duration:5.00s; animation-delay:-5.18s">{=*\%@.#|[%/:/[1-1&amp;/**1|$.&lt;;:1[10\+}&amp;=@&amp;:&lt;&gt;&lt;\</text>
+<text x="291.3" y="-120" class="mono rain" style="animation-duration:5.55s; animation-delay:-5.55s">+)]:[.%|#;#{&amp;:}:[|{*$=&amp;&amp;|{&lt;#::[$@#[&lt;&amp;|-&lt;{0-]&amp;</text>
+<text x="304.0" y="-120" class="mono rain" style="animation-duration:6.10s; animation-delay:-5.92s">|%{}/)@([1=+\/0/&amp;)*.;@1+;)-]&gt;++&lt;&gt;-]&lt;|#&lt;0*:#(@</text>
+<text x="322.4" y="-120" class="mono rain" style="animation-duration:6.65s; animation-delay:-6.29s">&lt;+&gt;.+=}|0--%@;=;+)#&amp;[-]}==@-|):#-$.0*#\%;-)]}</text>
+<text x="337.3" y="-120" class="mono rain" style="animation-duration:7.20s; animation-delay:-6.66s">$]*.0#@11]+.)].{0]-/1*}10[&amp;=-.\0+%&amp;\(0[(1[%&amp;&amp;</text>
+<text x="357.9" y="-120" class="mono rain" style="animation-duration:7.75s; animation-delay:-7.03s">&gt;*;=..)\/#+.;/$)+1&gt;=&amp;:;\=:+=\&lt;]@{#./){0:@+:.1</text>
+<text x="373.6" y="-120" class="mono rain" style="animation-duration:8.30s; animation-delay:-7.40s">]]=\|&gt;|}{@&lt;=1#(=&lt;.:&amp;$;&lt;}%]]-|;#{&amp;+;}++{}:;\=;</text>
+<text x="386.3" y="-120" class="mono rain" style="animation-duration:5.00s; animation-delay:-7.77s">{@&amp;:1:&amp;*;]{&lt;:|%&amp;#0$*};;@//=@%]=}||-*&gt;+$*:&lt;}1&gt;</text>
+<text x="406.3" y="-120" class="mono rain" style="animation-duration:5.55s; animation-delay:-8.14s">(}(:;/.)#\[\.@%[;&lt;0..-%&gt;|$$0]$[+}=-&lt;]&lt;/%&amp;(.[%</text>
+<text x="423.7" y="-120" class="mono rain" style="animation-duration:6.10s; animation-delay:-8.51s">1-;:*1&amp;11-*+##):$@&amp;\)@[-:/\&lt;(;)%\;#&gt;(%|/-+|](</text>
+<text x="435.7" y="-120" class="mono rain" style="animation-duration:6.65s; animation-delay:-8.88s">#$]0-..\+(]/{&amp;%&amp;[11.@]@##[1@)\-.\)(&lt;{%\&lt;%&lt;:@}</text>
+<text x="454.2" y="-120" class="mono rain" style="animation-duration:7.20s; animation-delay:-9.25s">#&amp;}@$(#&amp;)1*+&amp;:/-$;1\/==)#=0\(@@%=]}|+/&amp;(&gt;/&gt;&lt;&gt;</text>
+<text x="473.1" y="-120" class="mono rain" style="animation-duration:7.75s; animation-delay:-9.62s">+}]#&amp;.].0*#)%]/@{@:;&gt;]/0/={-1$.=@[0#)*]*@&gt;[=%</text>
+<text x="490.5" y="-120" class="mono rain" style="animation-duration:8.30s; animation-delay:-9.99s">:)@)1|][|%%0=++$@%%00@];.(|{@*$;=|}/#}\@@1@0[</text>
+</g>
+<g filter="url(#glow)">
+<text x="55" y="198.00" class="portraitRow mono" xml:space="preserve" style="animation-delay:0.46s">                                    C8@@@@@@@@@@0</text>
+<text x="55" y="209.60" class="portraitRow mono" xml:space="preserve" style="animation-delay:0.51s">                                t@@@@@@@@@@@@@@@@@@</text>
+<text x="55" y="221.20" class="portraitRow mono" xml:space="preserve" style="animation-delay:0.56s">                              L@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="55" y="232.80" class="portraitRow dim mono" xml:space="preserve" style="animation-delay:0.62s">                             @@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="55" y="244.40" class="portraitRow mono" xml:space="preserve" style="animation-delay:0.68s">                           ;@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="55" y="256.00" class="portraitRow mono" xml:space="preserve" style="animation-delay:0.73s">                          1@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="55" y="267.60" class="portraitRow mono" xml:space="preserve" style="animation-delay:0.78s">                         t@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="55" y="279.20" class="portraitRow dim mono" xml:space="preserve" style="animation-delay:0.84s">                        G@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="55" y="290.80" class="portraitRow mono" xml:space="preserve" style="animation-delay:0.90s">                        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="55" y="302.40" class="portraitRow mono" xml:space="preserve" style="animation-delay:0.95s">                       @@@@@@@@@@CtttfLCCLftttffLG08@@@@@@@@@</text>
+<text x="55" y="314.00" class="portraitRow mono" xml:space="preserve" style="animation-delay:1.00s">                      f@@@@@@8Lt  ..,,,:;ii11t1tttt1ttf0@@@@@@</text>
+<text x="55" y="325.60" class="portraitRow dim mono" xml:space="preserve" style="animation-delay:1.06s">                      @@@@@@G;..,:;;iiii111ttffffLfffttf@@@@@@@</text>
+<text x="55" y="337.20" class="portraitRow mono" xml:space="preserve" style="animation-delay:1.11s">                      @@@@@@f ,,...,:;;i1111t1i;iii111tt0@@@@@@</text>
+<text x="55" y="348.80" class="portraitRow mono" xml:space="preserve" style="animation-delay:1.17s">                      @@@@8@;  .;;;;:;;;;iii;;i1fC08@0L11@@@@@@</text>
+<text x="55" y="360.40" class="portraitRow mono" xml:space="preserve" style="animation-delay:1.22s">                      @@@88i :G@@@@@@@Gfti11ff0@@@@@80@8it@@@@@</text>
+<text x="55" y="372.00" class="portraitRow dim mono" xml:space="preserve" style="animation-delay:1.28s">                      @@@@f ,Lftt1tLCCft11tfffLCCf1;:::tL,0@@@@</text>
+<text x="55" y="383.60" class="portraitRow mono" xml:space="preserve" style="animation-delay:1.33s">                      G@@@. ,.,;if088Gf1:;tt1fL008@0GL1:i;L@@@C</text>
+<text x="55" y="395.20" class="portraitRow mono" xml:space="preserve" style="animation-delay:1.39s">                      i@@@  .,L0f8@@0@8L1:1fLG@@G@@0f@C1i;t@@@</text>
+<text x="55" y="406.80" class="portraitRow mono" xml:space="preserve" style="animation-delay:1.44s">                      ;@@@ ,:iff,1GG80Cfi.itfL0GCLLttCCL1i;@@@</text>
+<text x="55" y="418.40" class="portraitRow dim mono" xml:space="preserve" style="animation-delay:1.50s">                    LL:f@G ,;;:,;1tffi:,:,i1tffLLLfffffft1:@@GL8</text>
+<text x="55" y="430.00" class="portraitRow mono" xml:space="preserve" style="animation-delay:1.55s">                    CC  1f ,,,:;i1ii;:.,  ;iittttffftt1tti:Gi,18</text>
+<text x="55" y="441.60" class="portraitRow mono" xml:space="preserve" style="animation-delay:1.61s">                    :G  Ct ...,:;;;;ii  . ,,;;ift1111i11ii:GL:t</text>
+<text x="55" y="453.20" class="portraitRow mono" xml:space="preserve" style="animation-delay:1.67s">                     1iLCf ....,:;i1ti,0@f.1@@;tti;;;;iii;;80Lf</text>
+<text x="55" y="464.80" class="portraitRow dim mono" xml:space="preserve" style="animation-delay:1.72s">                      t0i0  ,..,:;ii:.:ifCfG@Gfiiii;i;;;1;t0C@1</text>
+<text x="55" y="476.40" class="portraitRow mono" xml:space="preserve" style="animation-delay:1.77s">                      ,it@; .,::;;;:i1L@@@@@@@@8CLt1;;ii;:G@LL</text>
+<text x="55" y="488.00" class="portraitRow mono" xml:space="preserve" style="animation-delay:1.83s">                       ;,@L .::;;:f@@@@@CC0CLG8@@@@f1ii;;1@Ct</text>
+<text x="55" y="499.60" class="portraitRow mono" xml:space="preserve" style="animation-delay:1.89s">                       ,;G8:::,;;;G@0tt1tffLLtffG00f1ii1t8@fL</text>
+<text x="55" y="511.20" class="portraitRow dim mono" xml:space="preserve" style="animation-delay:1.94s">                          fCi;;;;if@@f;i1it1tffG8Cftiiff00</text>
+<text x="55" y="522.80" class="portraitRow mono" xml:space="preserve" style="animation-delay:1.99s">                           Cfti;;iti. ,:,;;i11ii;itt1LGG@</text>
+<text x="55" y="534.40" class="portraitRow mono" xml:space="preserve" style="animation-delay:2.05s">                            8Gf1;;;:::if0@@@@Ctiiit1tC0@i</text>
+<text x="55" y="546.00" class="portraitRow mono" xml:space="preserve" style="animation-delay:2.10s">                            .@@C1:;:::,:f8@@Giiii1LLC@@8</text>
+<text x="55" y="557.60" class="portraitRow dim mono" xml:space="preserve" style="animation-delay:2.16s">                             t0@0Lf1ti1tfCG8@00GGG88@8C</text>
+<text x="55" y="569.20" class="portraitRow mono" xml:space="preserve" style="animation-delay:2.22s">                             :1C@@@80@@0@8@@8@@@@@@@G</text>
+<text x="55" y="580.80" class="portraitRow mono" xml:space="preserve" style="animation-delay:2.27s">                             ,iit0@@@@@@@@@@@@@@@@8</text>
+<text x="55" y="592.40" class="portraitRow mono" xml:space="preserve" style="animation-delay:2.33s">                              ii11tC@@@@@@@@@@@@@</text>
+<text x="55" y="604.00" class="portraitRow dim mono" xml:space="preserve" style="animation-delay:2.38s">                             C,;i11iif08@@@@@8</text>
+<text x="55" y="615.60" class="portraitRow mono" xml:space="preserve" style="animation-delay:2.44s">                            @@ ;iiiiiiii1</text>
+</g>
+<g clip-path="url(#portraitClip)"><rect x="36" y="118" width="488" height="26" fill="url(#scanG)" opacity="0.20" class="scan"/></g>
+<text x="42" y="636" class="sans flicker" font-size="26" font-weight="700" fill="#d7ffe0">Pushkkal Gupta</text>
+<text x="42" y="671" class="sans" font-size="17" fill="#88b992">pushkkal0201-bit  ·  he/him</text>
+<text x="42" y="710" class="sans" font-size="16" fill="#c4f9ce">AI enthusiast · Tech explorer · Arduino tinkerer</text>
+<text x="590" y="122" class="mono" font-size="22" fill="#63ff75">pushkkal0201-bit@github</text>
+<text x="952" y="122" class="mono" font-size="20" fill="#7da286">:~$ render profile</text>
+<text x="590" y="180" class="sans flicker" font-size="48" font-weight="700" fill="#d7ffe0">ASCII Matrix Mode</text>
+<text x="592" y="216" class="sans" font-size="22" fill="#b9efc1">your face assembling from falling green characters</text>
+<path d="M590 244 H1278" stroke="#17321c" stroke-width="2"/>
+<text x="592" y="284" class="mono" font-size="19" fill="#63ff75">$ cat identity.txt</text>
+<text x="604" y="328" class="mono" font-size="22" fill="#69ff80">Name:</text>
+<text x="830" y="328" class="mono" font-size="22" fill="#d9ffe0">Pushkkal Gupta</text>
+<text x="604" y="374" class="mono" font-size="22" fill="#69ff80">Role:</text>
+<text x="830" y="374" class="mono" font-size="22" fill="#d9ffe0">B.Tech CSE (AI) Student</text>
+<text x="604" y="420" class="mono" font-size="22" fill="#69ff80">Location:</text>
+<text x="830" y="420" class="mono" font-size="22" fill="#d9ffe0">Lucknow, India</text>
+<text x="604" y="466" class="mono" font-size="22" fill="#69ff80">Focus:</text>
+<text x="830" y="466" class="mono" font-size="22" fill="#d9ffe0">AI/ML · DSA · Web Development</text>
+<text x="604" y="512" class="mono" font-size="22" fill="#69ff80">GitHub:</text>
+<text x="830" y="512" class="mono" font-size="22" fill="#d9ffe0">github.com/pushkkal0201-bit</text>
+<text x="604" y="558" class="mono" font-size="22" fill="#69ff80">Status:</text>
+<text x="830" y="558" class="mono" font-size="22" fill="#d9ffe0">Building cool things</text>
+<path d="M590 615 H1278" stroke="#17321c" stroke-width="2"/>
+<text x="592" y="653" class="mono" font-size="19" fill="#63ff75">$ echo "loading ascii soul"</text>
+<text x="592" y="693" class="mono" font-size="26" fill="#d8ffe0">loading ascii soul<tspan class="cursor">_</tspan></text>
+<text x="592" y="728" class="mono" font-size="14" fill="#81a587">Tip: pin this SVG at the top of your README for the best effect.</text>
+</svg>
