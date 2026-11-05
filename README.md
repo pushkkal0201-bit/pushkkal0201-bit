@@ -20,7 +20,6 @@ Currently working on: Auralis
   <img width="100%" src="./assets/auralis-workbench.svg" alt="Auralis — job-search workflow workbench" />
 </a>Auralis is where I'm exploring an AI-assisted job-search workflow: finding openings, assessing fit, and organizing the steps around an application.
 
-It's a fork of an existing open-source project, not something I'm claiming to have built from scratch. I'm using it as a place to understand the architecture, test ideas, and make the experience more practical. The repository is the best place to follow what has actually changed.
 Things I use and learn with
 Programming	AI / data	Software & tooling
 Java, Python, C, JavaScript	OpenCV, NumPy, Pandas, scikit-learn	Git, GitHub, APIs
