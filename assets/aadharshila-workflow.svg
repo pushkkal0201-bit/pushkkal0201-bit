@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="t d">
+<title id="t">Aadharshila underwriting workflow</title><desc id="d">Evidence-driven mortgage underwriting: evidence records, policy checks, and explained assessment history.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a1410"/><stop offset=".55" stop-color="#102017"/><stop offset="1" stop-color="#071a12"/></linearGradient><pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" fill="none" stroke="#7cd89e" stroke-opacity=".045"/></pattern></defs>
+<style>.path{stroke-dasharray:7 15;animation:run 12s linear infinite}.blink{animation:pulse 4s ease-in-out infinite}@keyframes run{to{stroke-dashoffset:-260}}@keyframes pulse{50%{opacity:.28}}@media(prefers-reduced-motion:reduce){.path,.blink{animation:none}}</style>
+<rect x="1" y="1" width="1198" height="358" rx="19" fill="url(#bg)" stroke="#315942"/><rect x="2" y="2" width="1196" height="356" rx="19" fill="url(#grid)"/>
+<text x="39" y="61" font-family="Arial,sans-serif" font-weight="700" font-size="37" fill="#e9fff0">Aadharshila<tspan fill="#77ed9d">.</tspan></text>
+<text x="40" y="95" font-family="Consolas,Menlo,monospace" font-size="18" fill="#8db7a0">EVIDENCE-DRIVEN MORTGAGE UNDERWRITING</text>
+<text x="1157" y="60" text-anchor="end" font-family="Consolas,Menlo,monospace" font-size="14" fill="#72ac85">HOME LOANS / LOAN AGAINST PROPERTY</text>
+<path d="M92 161H1108" stroke="#2d6846" stroke-width="4"/><path d="M92 161H1108" stroke="#91f9ae" stroke-width="2" class="path"/>
+<g font-family="Arial,sans-serif">
+<rect x="39" y="184" width="355" height="126" rx="13" fill="#12281b" stroke="#366d4c"/><circle cx="65" cy="211" r="6" fill="#8bf7b1" class="blink"/><text x="83" y="218" font-family="Consolas,Menlo,monospace" font-size="14" fill="#8fdcb1">01 / EVIDENCE</text><text x="61" y="259" font-weight="700" font-size="25" fill="#e5f9ec">Review records</text><text x="61" y="285" font-size="16" fill="#a0c4ac">Income, documents, consistency</text>
+<rect x="423" y="184" width="355" height="126" rx="13" fill="#12281b" stroke="#366d4c"/><circle cx="449" cy="211" r="6" fill="#8bf7b1" class="blink"/><text x="467" y="218" font-family="Consolas,Menlo,monospace" font-size="14" fill="#8fdcb1">02 / CREDIT POLICY</text><text x="445" y="259" font-weight="700" font-size="25" fill="#e5f9ec">Apply checks</text><text x="445" y="285" font-size="16" fill="#a0c4ac">EMI, FOIR, LTV, lending rules</text>
+<rect x="807" y="184" width="355" height="126" rx="13" fill="#12281b" stroke="#366d4c"/><circle cx="833" cy="211" r="6" fill="#8bf7b1" class="blink"/><text x="851" y="218" font-family="Consolas,Menlo,monospace" font-size="14" fill="#8fdcb1">03 / ASSESSMENT</text><text x="829" y="259" font-weight="700" font-size="25" fill="#e5f9ec">Explain &amp; replay</text><text x="829" y="285" font-size="16" fill="#a0c4ac">Policy reasons, historical trace</text>
+</g><text x="41" y="338" font-family="Consolas,Menlo,monospace" font-size="13" fill="#6b987c">UNDERWRITING WORKSPACE / ILLUSTRATIVE PIPELINE</text>
+</svg>
